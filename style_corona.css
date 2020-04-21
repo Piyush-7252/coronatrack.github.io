@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+}
+.nav_style{
+	background-color: #a29bfe;
+}
+.nav_style a{
+	color: white;
+}
+.main_header{
+	height: 400px;
+	width: 100%;
+}
+.rightside h1{
+	font-size: 3rem;
+	left: 10px;
+}
+.corona_rot img{
+	animation: gocoronago 10s linear infinite;
+
+}
+@keyframes gocoronago {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(360deg);}
+	}
+.boxx{
+		border: 2px solid green;
+}
